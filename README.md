@@ -19,6 +19,12 @@ Ruixiang Zhang\*, Richard He Bai\*, Huangjie Zheng\*, Navdeep Jaitly, Ronan Coll
 
 This repo is for paper reproduction for improving code generation in three steps: (1) **Sample** solutions from the frozen model at non-unit temperature, (2) **Fine-tune** on those raw, unverified outputs via standard cross-entropy, and (3) **Decode** at a separately tuned temperature. No rewards, no verifier, no teacher, no RL. See the [paper](https://arxiv.org/abs/2604.01193) for full details.
 
+
+
+## News
+* 04/03/2026 Model checkpoints will be released on HF shortly. 
+
+
 ## 🚀 Getting Started
 
 ```bash
