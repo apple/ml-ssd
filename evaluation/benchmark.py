@@ -35,10 +35,10 @@ LCB_PROMPT_WITH_STARTER_CODE = """You will be given a question (problem specific
 
 Question: {problem_description}
 
-You will use the following starter code to write the solution to the problem and enclose your code within delimiters."
+You will use the following starter code to write the solution to the problem and enclose your code within delimiters as follows.
 ```python
 {entry_point}
-"""
+```"""
 
 
 def has_code(response):
